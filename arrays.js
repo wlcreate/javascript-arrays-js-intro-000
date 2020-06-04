@@ -15,6 +15,7 @@ function destructivelyAddElementToBeginningOfArray(array, element) {
 //should not alter the original array
 function addElementToEndOfArray(array, element) {
   addEndArray = [...array, element]
+  return addEndArray
 }
 
 //should alter the original array
