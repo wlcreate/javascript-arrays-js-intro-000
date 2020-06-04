@@ -24,6 +24,14 @@ function destructivelyAddElementToEndOfArray(array, element) {
   return array
 }
 
+//accept an array and an index and return the element at that index.
 function accessElementInArray(array, index) {
   return array[index]
+}
+
+//takes an array as its only argument and removes the first element
+//function should then return the entire array, and it should mutate the array
+function destructivelyRemoveElementFromBeginningOfArray(array) {
+  array.shift(0)
+  return array
 }
