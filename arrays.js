@@ -42,3 +42,10 @@ function removeElementFromBeginningOfArray(array) {
   sliceArray = array.slice(1)
   return sliceArray
 }
+
+//takes an array as its only argument and removes the last element
+//function should return the entire array, and it should mutate the array.
+function destructivelyRemoveElementFromEndOfArray(array) {
+  array.pop()
+  return array
+}
