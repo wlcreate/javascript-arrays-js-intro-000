@@ -35,3 +35,10 @@ function destructivelyRemoveElementFromBeginningOfArray(array) {
   array.shift(0)
   return array
 }
+
+//takes an array as its only argument & should remove the first element in the array
+//function should return the entire array in the same line, and not mutate the original array.
+function removeElementFromBeginningOfArray(array) {
+  sliceArray = array.slice(1)
+  return sliceArray
+}
