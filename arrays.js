@@ -7,10 +7,8 @@ function addElementToBeginningOfArray(array, element) {
 
 //alter the original array that's passed in
 function destructivelyAddElementToBeginningOfArray(array, element) {
-  var array = [1]
-  var element = 'foo'
   array.unshift(element)
-  
+
 }
 
 //should not alter the original array
